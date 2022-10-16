@@ -1,0 +1,39 @@
+nav{
+    max-width: 800px;
+    display: flex;
+    padding: 1.5rem 1.7rem;
+    justify-content: space-between;
+    padding-left: 10%;
+    position: relative;
+    line-height: 50px;
+}
+
+.logo{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    line-height: 50px;
+}
+.logo span{
+    color: #007fff;
+    font-size: 2rem;
+}
+
+nav a{
+    color: #6d6d6d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    line-height: 50px;
+}
+nav a:hover{
+    color: #007fff;
+    font-weight: 300;
+}
